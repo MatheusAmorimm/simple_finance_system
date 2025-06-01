@@ -18,6 +18,6 @@ def wallet():
     total = 0
 
     for transaction in transc_list:
-        total += transaction.valor
+        total += transaction.value
 
     return total
